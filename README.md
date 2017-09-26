@@ -1,5 +1,7 @@
 # pac-manager-ssh-agent-helper
 
+# IMPORTANT - I no longer use PAC Manager as the software is no longer updated. This is for historical purpose only.
+
 **Using this program has all the risks associated with running ssh-agent. Please ensure your are familiar with ssh-agent and associated risks.**
 
 This program is created to be able to easily integrate use of ssh-agent with PAC Manager. This script ensures that only one ssh-agent process is running and that appropriate socket is registered. It helps removing agents and sockets if there are too many started and checks validity. It also creates a temporary file that can be easily sourced from PAC Manager's individual connection settings and used without prompting a passphrase or expensive key checking time.
